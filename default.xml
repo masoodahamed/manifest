@@ -8,11 +8,9 @@
 
   <default revision="refs/heads/master"
            remote="testrepo"
-           sync-j="4" />
-  <default revision="refs/heads/master"
            remote="externalrepo"
            sync-j="4" />
-  
+
   <project name="repo_test1" remote="testrepo" path="repo_test1"/>
   <project name="repo_test3" remote="testrepo" path="../out/repo_test3"/>
   <project name="test123" remote="externalrepo" path="../out/test123"/>
