@@ -2,17 +2,13 @@
 <manifest>
   <remote  name="testrepo"
            fetch="https://github.com/masoodahamed" />
-  <remote  name="externalrepo"
-           fetch="https://github.com/rajeeshkumar" />
-  
 
+ 
   <default revision="refs/heads/master"
            remote="testrepo"
-           remote="externalrepo"
            sync-j="4" />
 
   <project name="repo_test1" remote="testrepo" path="repo_test1"/>
   <project name="repo_test3" remote="testrepo" path="../out/repo_test3"/>
-  <project name="test123" remote="externalrepo" path="../out/test123"/>
 
 </manifest>
