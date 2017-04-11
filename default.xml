@@ -8,5 +8,6 @@
            sync-j="4" />
   
   <project name="repo_test1" remote="testrepo" path="repo_test1"/>
+  <project name="repo_test3" remote="testrepo" path="repo_test3"/>
 
 </manifest>
