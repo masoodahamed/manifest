@@ -7,6 +7,6 @@
            remote="testrepo"
            sync-j="4" />
   
-  <project name="testrepo/zizokimo" remote="testrepo" path="repo_test1"/>
+  <project name="repo_test1" remote="testrepo" path="repo_test1"/>
 
 </manifest>
