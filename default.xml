@@ -7,6 +7,6 @@
            remote="testrepo"
            sync-j="4" />
   
-  <project name="testrepo/zizokimo" remote="bitbucket" path="repo_test1"/>
+  <project name="testrepo/zizokimo" remote="testrepo" path="repo_test1"/>
 
 </manifest>
